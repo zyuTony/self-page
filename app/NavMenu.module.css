@@ -1,0 +1,33 @@
+/* Style for the navigation bar */
+.nav {
+  background-color: #333; /* Dark background color */
+  overflow: hidden; /* Ensures the nav content is contained within the nav area */
+}
+
+/* Style for navigation links */
+.nav ul {
+  list-style-type: none; /* Removes bullets from the list */
+  padding: 0; /* Removes padding */
+  margin: 0; /* Removes margin */
+  display: flex; /* Aligns list items in a row */
+}
+
+/* Style for each list item */
+.nav ul li {
+  float: left; /* Floats each list item to the left */
+}
+
+/* Style for link inside list items */
+.nav ul li a {
+  display: block; /* Changes the link's display to block; makes it easier to click */
+  color: white; /* Text color */
+  text-align: center; /* Centers the text inside the link */
+  padding: 14px 20px; /* Adds padding inside each link for spacing */
+  text-decoration: none; /* Removes underline from links */
+}
+
+/* Changes the link color on hover */
+.nav ul li a:hover {
+  background-color: #ddd; /* Light background on hover */
+  color: black; /* Text color change on hover */
+}
